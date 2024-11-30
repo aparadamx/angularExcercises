@@ -1,0 +1,17 @@
+git log --graph --pretty="%ad" --date=short
+
+git log --graph --pretty="%C(yellow) %s"
+
+git log --graph --pretty="%C(bold green) %(ar)"
+
+git log --graph --pretty="%C(bold blue)%h" --decorate --all
+
+
+***graph git*****
+
+<Tree>
+git log --oneline --decorate --graph --all
+
+<Tree with date and author If you also want to see date and author>
+$ git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all
+
